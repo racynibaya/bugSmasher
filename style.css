@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+body {
+  font-family: 'Mochiy Pop One', sans-serif;
+  background-color: lightgreen;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.center {
+  text-align: center;
+}
+
+#scoreButton,
+#speedButton {
+  background-color: lightgreen;
+  cursor: pointer;
+  color: #000;
+  font-size: 17px;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  margin-top: 10px;
+  font-family: inherit;
+  padding: 10px;
+}
+
+#score {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#scoreButton:hover,
+#speedButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+#scoreButton:active,
+#speedButton:active {
+  transform: translateY(3px);
+
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+
+  transition: 0.3s;
+}
